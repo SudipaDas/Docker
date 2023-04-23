@@ -308,7 +308,7 @@ Output of the above command
     Removing intermediate container 5d60ad3a59ff
      ---> 960d37536dcd
     Successfully built 960d37536dcd
-    Successfully tagged abhishekf5/my-first-docker-image:latest
+    Successfully tagged sudipadas/my-first-docker-image:latest
 ```
 
 ### Verify Docker Image is created
@@ -329,7 +329,7 @@ hello-world                        latest    feb5d9fea6a5   16 months ago    13.
 ### Run your First Docker Container
 
 ```
-docker run -it abhishekf5/my-first-docker-image
+docker run -it sudipadas/my-first-docker-image
 ```
 
 Output
@@ -341,19 +341,17 @@ Hello World
 ### Push the Image to DockerHub and share it with the world
 
 ```
-docker push abhishekf5/my-first-docker-image
+docker push sudipadas/my-first-docker-image
 ```
 
 Output
 
 ```
 Using default tag: latest
-The push refers to repository [docker.io/abhishekf5/my-first-docker-image]
+The push refers to repository [docker.io/sudipadas/my-first-docker-image]
 896818320e80: Pushed
 b8088c305a52: Pushed
 69dd4ccec1a0: Pushed
 c5ff2d88f679: Mounted from library/ubuntu
 latest: digest: sha256:6e49841ad9e720a7baedcd41f9b666fcd7b583151d0763fe78101bb8221b1d88 size: 1157
 ```
-
-### You must be feeling like a champ already 
