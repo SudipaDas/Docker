@@ -252,8 +252,8 @@ This message shows that your installation appears to be working correctly.
 ### Clone this repository and move to example folder
 
 ```
-git clone https://github.com/SudipaDas/Docker.git
-cd  examples
+git clone https://github.com/SudipaDas/Freestyle-cicd.git
+
 ```
 
 ### Login to Docker [Create an account with https://hub.docker.com/]
